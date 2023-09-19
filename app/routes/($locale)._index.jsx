@@ -121,7 +121,7 @@ export default function Homepage() {
         </Suspense>
       )}
 
-      {featuredCollections && (
+      {/* {featuredCollections && (
         <Suspense>
           <Await resolve={featuredCollections}>
             {({collections}) => {
@@ -135,7 +135,7 @@ export default function Homepage() {
             }}
           </Await>
         </Suspense>
-      )}
+      )} */}
 
       {tertiaryHero && (
         <Suspense fallback={<Hero {...skeletons[2]} />}>
